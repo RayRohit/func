@@ -1,0 +1,20 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table td {
+  border: solid #fff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 28px;
+}
+table {
+  border-collapse: separate !important;
+  border-spacing:0.1em 0.2em !important;
+}
