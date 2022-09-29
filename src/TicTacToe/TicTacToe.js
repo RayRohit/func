@@ -94,7 +94,7 @@ export default function TicTacToe() {
         )
     }
     return (
-        <>
+        <div className='ttt'>
             <div>
                 <h1 className='text-white text-center pt-5 fs-1'>Tic Tac Toe</h1>
                 <p className='text-white text-center'>Play the tic tac way!!</p>
@@ -141,6 +141,6 @@ export default function TicTacToe() {
                     <button className='btn btn-danger' onClick={() => handleScore()}>Reset Score</button>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
